@@ -72,3 +72,15 @@ configurable, modular and easy to use.
 
 ### Standalone stuff
 - ✅ [dotfiles](https://github.com/Maluscat/dotfiles), containing my Vim config
+
+
+## Dependency graph
+Here's a fun little dependency graph over all of my (side) projects.
+Generated using [Graphviz](https://graphviz.org/) with the
+[sfdp](https://graphviz.org/docs/layouts/sfdp/) layout engine.
+
+<img
+  src="./asset/dependency-graph.webp"
+  alt="A dependency graph showing the connections between all of my projects and side projects"
+  style="border-radius: 4px"
+/>
