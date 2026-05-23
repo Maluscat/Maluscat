@@ -1,93 +1,74 @@
-# Maluscat
+# Heya 🏳️‍🌈
+I'm Malus, a cheepup on the internet who studies computer science badly and
+codes too much. You can check out some of my silly projects on my website
+[malus.zone 🐆](https://malus.zone). I'm active on
+[GitLab 🦊](https://gitlab.com/Maluscat) and [GitHub 🐙](https://github.com/Maluscat).
+
+## Projects
+Coding is my main pastime – I love building cool stuff and constantly improving
+my skills. The majority of my projects have evolved from one another, creating
+my own little code ecosystem that I sink a lot of time into. I maintain some
+neat libraries and have built various web projects, all with a focus on being
+configurable, modular and easy to use.
+
+**Legend:**<br>
+✅ Released and maintained or feature-complete<br>
+▶️ Unreleased but being developed<br>
+💤 Rarely worked on<br>
+❌ Not worked on anymore<br>
 
 
+<!-- Left out: TemplateEngine, KeyControl, lptr, eptr -->
 
-## Getting started
+### Web projects
+- ✅ [Malus.zone](https://gitlab.com/Maluscat/malus.zone) ([Website](https://malus.zone)),
+    my website
+- ✅ [Game of Life](https://gitlab.com/Maluscat/game-of-life) ([Website](https://malus.zone/games/gameoflife)),
+    a feature-rich implementation of Conway's Game of Life
+- ✅ [Website-Common](https://gitlab.com/Maluscat/website-common/),
+    a bunch of shared templates and static files for internal use by all my websites
+- ▶️ [404-WebGL](https://gitlab.com/Maluscat/404-webgl), an upcoming 404 page
+- 💤 [Scratchet](https://gitlab.com/Maluscat/scratchet) ([GitHub](https://github.com/Maluscat/Scratchet)) ([Website](https://scratchet.malus.zone)),
+    a WebSocket based multiplayer drawing app with no external dependencies
+- ❌ [Snake](https://github.com/Maluscat/snake),
+    a very rough implementation of both a normal game of Snake and Snake on three axes
+- ❌ [Win95-Web](https://github.com/Maluscat/win95-web) ([Website](https://malus.zone/win95/)),
+    a barebones JS implementation of Windows 95 with a feature-complete Minesweeper
+- ❌ [Graphics Experiments](https://gitlab.com/Maluscat/graphics-experiments) ([Website](https://malus.zone/graphics)),
+    projects I did years ago to learn about WebGL and WebGL2
+- ❌ [Graphics tools](https://gitlab.com/Maluscat/graphics-tools),
+    a collection of small WebGL2 helpers for use within my websites
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### Libraries
+#### Bigger
+- ▶️ [SimpleViewRouter](https://gitlab.com/Maluscat/simple-view-router/) (GitHub pending) (npm pending),
+    a clean and intuitive static site generator and dynamic router
+- ▶️ [InteractiveShadowDOM](https://gitlab.com/Maluscat/interactive-shadow-dom/),
+    a dynamic front end window multiplexer
+- ▶️ [trdoc](https://gitlab.com/Maluscat/trdoc) ([Website](https://docs.malus.zone/)),
+    a TypeDoc-based single-page documentation generator for TypeScript
+- ▶️ [Slider89](https://github.com/Maluscat/Slider89), a front end range slider library
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+#### Small and self-contained
+- ✅ [SocketBase](https://gitlab.com/Maluscat/socket-base) ([GitHub](https://github.com/Maluscat/socket-base)) ([npm](https://www.npmjs.com/package/@maluscat/socket-base)),
+    a tiny abstraction layer over WebSockets that automatically
+    handles pings, timeouts and reconnects
+- ✅ [RuntimeTypeCheck](https://gitlab.com/Maluscat/runtime-type-check) ([GitHub](https://github.com/Maluscat/runtime-type-check)) ([npm](https://www.npmjs.com/package/@maluscat/runtime-type-check)),
+    a modular runtime type checker with a focus on smart and readable error
+    messages
+- ✅ [UtilityWheel](https://gitlab.com/Maluscat/utility-wheel) ([GitHub](https://github.com/Maluscat/utility-wheel)),
+    a drop-in front end utility wheel with four sections
+- ▶️ [Controls3D](https://gitlab.com/Maluscat/controls3d),
+    a library for handling mouse and touch controls both in 2D and 3D space,
+    featuring a comprehensive animation system
+- ▶️  [ReactiveStorage](https://gitlab.com/Maluscat/reactive-storage) ([GitHub](https://gitlab.com/Maluscat/reactive-storage)) ([npm](https://www.npmjs.com/package/reactive-storage)),
+    a library that allows the creation of deeply reactive data without the need for proxies
 
-## Add your files
+#### Misc
+- ✅ [vim-less-autocompile](https://github.com/Maluscat/vim-less-autocompile),
+    a Vim plugin to automatically compile Less files to CSS on save
+- ✅ [codemirror-theme-moonfly](https://gitlab.com/Maluscat/codemirror-theme-moonfly) ([npm](https://www.npmjs.com/package/codemirror-theme-moonfly)),
+    a port of an excellent Vim dark theme for the [CodeMirror](https://codemirror.net/) editor
 
-* [Create](https://docs.gitlab.com/user/project/repository/web_editor/#create-a-file) or [upload](https://docs.gitlab.com/user/project/repository/web_editor/#upload-a-file) files
-* [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/Maluscat/Maluscat.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-* [Set up project integrations](https://gitlab.com/Maluscat/Maluscat/-/settings/integrations)
-
-## Collaborate with your team
-
-* [Invite team members and collaborators](https://docs.gitlab.com/user/project/members/)
-* [Create a new merge request](https://docs.gitlab.com/user/project/merge_requests/creating_merge_requests/)
-* [Automatically close issues from merge requests](https://docs.gitlab.com/user/project/issues/managing_issues/#closing-issues-automatically)
-* [Enable merge request approvals](https://docs.gitlab.com/user/project/merge_requests/approvals/)
-* [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-* [Get started with GitLab CI/CD](https://docs.gitlab.com/ci/quick_start/)
-* [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/user/application_security/sast/)
-* [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/topics/autodevops/requirements/)
-* [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/user/clusters/agent/)
-* [Set up protected environments](https://docs.gitlab.com/ci/environments/protected_environments/)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+### Standalone stuff
+- ✅ [dotfiles](https://github.com/Maluscat/dotfiles), containing my Vim config
