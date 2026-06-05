@@ -5,10 +5,10 @@ codes too much. You can check out some of my silly projects on my website
 [GitLab 🦊](https://gitlab.com/Maluscat) and [GitHub 🐙](https://github.com/Maluscat).
 
 ## Projects
-Coding is my main pastime – I love building cool stuff and constantly improving
-my skills. The majority of my projects have evolved from one another, creating
-my own little code ecosystem that I sink a lot of time into. I maintain some
-neat libraries and have built various web projects, all with a focus on being
+Coding is my main pastime - I love building cool stuff and improving my skills.
+The majority of my projects have evolved from one another, resulting in my own
+little code ecosystem that I sink a lot of time into. I maintain some neat
+libraries and have built various web projects, all with a focus on being
 configurable, modular and easy to use.
 
 **Legend:**<br>
